@@ -21,7 +21,7 @@ $sql = "SELECT
             SUM(total_medium) AS total_medium,
             SUM(total_large) AS total_large,
             SUM(total_bottles) AS total_bottles
-        FROM bottles_collected";  // Sum up all values
+        FROM bin_summary"; // Sum up all values
 
 $result = $mysqli->query($sql);
 
